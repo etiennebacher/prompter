@@ -1,9 +1,8 @@
 #' Load hint.css dependencies
 #'
-#' @return Include dependencies of hint.css
+#' @return Include dependencies of Hint.css
 #' @export
 #'
-#' @examples
 use_prompt <- function() {
   shiny::singleton(
     shiny::tags$head(

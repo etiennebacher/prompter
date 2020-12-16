@@ -7,7 +7,7 @@
 use_prompt()
 }
 \value{
-Include dependencies of hint.css
+Include dependencies of Hint.css
 }
 \description{
 Load hint.css dependencies
