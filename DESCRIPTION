@@ -16,3 +16,5 @@ LazyData: true
 Imports: 
     htmltools
 RoxygenNote: 7.1.1
+URL: https://github.com/etiennebacher/prompter
+BugReports: https://github.com/etiennebacher/prompter/issues
