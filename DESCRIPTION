@@ -1,0 +1,18 @@
+Package: prompter
+Type: Package
+Title: Add Tooltips in 'Shiny' Apps With 'Hint.css'
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Etienne",
+           family = "Bacher",
+           role = c("aut", "cre", "cph"),
+           email = "etienne.bacher@protonmail.com")
+Description: In 'Shiny' apps, it is sometimes useful to store information
+    on a particular item in a tooltip. 'Prompter' allows you to easily 
+    create such tooltips, using 'Hint.css'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    htmltools
+RoxygenNote: 7.1.1
