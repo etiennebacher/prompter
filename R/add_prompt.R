@@ -72,7 +72,7 @@ add_prompt <- function(ui_element, position = "bottom", message = NULL, type = N
 
   opts <- c(unlist(opts), animate)
 
-  htmltools::tagAppendAttributes(
+  shiny::tagAppendAttributes(
     ui_element,
     class = paste(
       "hint--",
