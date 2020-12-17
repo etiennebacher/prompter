@@ -57,6 +57,9 @@ server <- function(input, output, session) {
 
 shinyApp(ui, server)
 ```
+Here's the output of this code:
+
+![](demo2.gif)
 
 ## Code of Conduct
 
