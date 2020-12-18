@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![Codecov.io test coverage](https://codecov.io/gh/etiennebacher/prompter/branch/master/graphs/badge.svg)](https://codecov.io/github/etiennebacher/prompter)
+[![R build status](https://github.com/etiennebacher/prompter/workflows/R-CMD-check/badge.svg)](https://github.com/etiennebacher/prompter/actions)
 <!-- badges: end -->
 
 The goal of `{prompter}` is to easily create tooltips on many HTML elements in Shiny apps.
