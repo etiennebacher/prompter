@@ -36,7 +36,7 @@ add_prompt(
 \item{bounce}{Boolean indicating whether there is a small boucing animation when the tooltip appears. Default is `FALSE`.}
 }
 \value{
-
+A tooltip when hovering the element concerned.
 }
 \description{
 Add a tooltip for a specific element
