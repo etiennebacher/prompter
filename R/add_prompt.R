@@ -10,7 +10,7 @@
 #' @param animate Boolean indicating whether there is a small animation when the tooltip appears. Default is `TRUE`.
 #' @param bounce Boolean indicating whether there is a small boucing animation when the tooltip appears. Default is `FALSE`.
 #'
-#' @return
+#' @return A tooltip when hovering the element concerned.
 #' @export
 #'
 #' @examples
@@ -72,15 +72,32 @@ add_prompt <- function(ui_element, position = "bottom", message = NULL, type = N
 
   opts <- c(unlist(opts), animate)
 
-  shiny::tagAppendAttributes(
-    ui_element,
-    class = paste(
-      "hint--",
-      c(position, type, size, opts),
-      collapse = " ",
-      sep = ""
-    ),
-    `aria-label` = message
-  )
+  if (ui_element$name == "img") {
+
+    shiny::tags$div(
+      ui_element,
+      class = paste(
+        "hint--",
+        c(position, type, size, opts),
+        collapse = " ",
+        sep = ""
+      ),
+      `aria-label` = message
+    )
+
+  } else {
+
+    shiny::tagAppendAttributes(
+      ui_element,
+      class = paste(
+        "hint--",
+        c(position, type, size, opts),
+        collapse = " ",
+        sep = ""
+      ),
+      `aria-label` = message
+    )
+
+  }
 
 }
