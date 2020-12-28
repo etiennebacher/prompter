@@ -6,7 +6,7 @@
 [![R build status](https://github.com/etiennebacher/prompter/workflows/R-CMD-check/badge.svg)](https://github.com/etiennebacher/prompter/actions)
 <!-- badges: end -->
 
-The goal of `{prompter}` is to easily create tooltips on many HTML elements in Shiny apps.
+The goal of `{prompter}` is to easily create tooltips on many HTML elements in Shiny apps. This is the adaptation of [`hint.css`](https://github.com/chinchang/hint.css) in R.
 
 
 ## Installation
