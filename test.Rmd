@@ -1,0 +1,14 @@
+---
+output: github_document
+--- 
+
+```{r}
+library(prompter)
+add_prompt(
+  htmltools::p("some text"),
+        message = "this is a plot, and I add some text to show the size of the box",
+        position = "left", type = "error", 
+        size = "medium", rounded = TRUE
+      )
+```
+
