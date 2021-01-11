@@ -12,7 +12,12 @@ The goal of `{prompter}` is to easily create tooltips on many HTML elements in S
 
 ## Installation
 
-For now, you can only install the development version:
+You can install the CRAN version:
+``` r
+install.packages("prompter")
+```
+
+Or install the development version:
 ``` r
 # install.packages("devtools")
 devtools::install_github("etiennebacher/prompter")
