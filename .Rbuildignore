@@ -7,3 +7,4 @@
 ^test\.Rmd$
 ^test\.md$
 ^cran-comments\.md$
+^CRAN-RELEASE$
