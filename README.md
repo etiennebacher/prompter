@@ -30,6 +30,7 @@ devtools::install_github("etiennebacher/prompter")
 library(prompter)
 library(shiny)
 library(ggplot2)
+library(magrittr)
 
 ui <- fluidPage(
 
