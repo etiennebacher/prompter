@@ -71,6 +71,8 @@ add_prompt <- function(ui_element, position = "bottom", message = NULL, type = N
   }
 
   opts <- c(unlist(opts), animate)
+  opts[which(grepl("permanent", opts))] <- "always"
+
 
   if (ui_element$name == "img") {
 
