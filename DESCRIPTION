@@ -12,7 +12,6 @@ Description: In 'Shiny' apps, it is sometimes useful to store information
     create such tooltips, using 'Hint.css'.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Imports: 
     shiny
 RoxygenNote: 7.1.2
