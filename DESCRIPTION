@@ -15,7 +15,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     shiny
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 URL: https://github.com/etiennebacher/prompter
 BugReports: https://github.com/etiennebacher/prompter/issues
 Suggests: 
