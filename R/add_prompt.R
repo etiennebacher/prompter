@@ -10,6 +10,7 @@
 #' @param animate Boolean indicating whether there is a small animation when the tooltip appears. Default is `TRUE`.
 #' @param bounce Boolean indicating whether there is a small boucing animation when the tooltip appears. Default is `FALSE`.
 #' @param arrow Boolean indicating whether there is an arrow on the tooltip. Default is `TRUE`.
+#' @param shadow Boolean indicating whether there should be a shadow effect. Default is `TRUE`.
 #'
 #' @return A tooltip when hovering the element concerned.
 #' @export
@@ -57,7 +58,8 @@ add_prompt <- function(
   rounded = FALSE,
   animate = TRUE,
   bounce = FALSE,
-  arrow = TRUE
+  arrow = TRUE,
+  shadow = TRUE
 ) {
 
   if (missing(message)) {
@@ -88,7 +90,13 @@ add_prompt <- function(
     arrow <- "no-arrow"
   }
 
-  opts <- c(unlist(opts), animate, arrow)
+  if (isTRUE(shadow)) {
+    shadow <- NULL
+  } else {
+    shadow <- "no-shadow"
+  }
+
+  opts <- c(unlist(opts), animate, arrow, shadow)
   opts[which(grepl("permanent", opts))] <- "always"
 
 

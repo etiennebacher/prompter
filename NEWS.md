@@ -2,7 +2,7 @@
 
 * Fix "permanent" option (#2)
 * Update `hint.css` to 2.7.0
-* Add "arrow" option
+* Add "arrow" and "shadow" options
 
 # prompter 1.0.0
 
