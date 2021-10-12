@@ -8,3 +8,4 @@
 ^test\.md$
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^docs$
