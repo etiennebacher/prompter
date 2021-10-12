@@ -4,7 +4,8 @@
 <!-- badges: start -->
 [![Codecov.io test coverage](https://codecov.io/gh/etiennebacher/prompter/branch/master/graphs/badge.svg)](https://codecov.io/github/etiennebacher/prompter)
 [![R build status](https://github.com/etiennebacher/prompter/workflows/R-CMD-check/badge.svg)](https://github.com/etiennebacher/prompter/actions)
-[![CRAN status](https://www.r-pkg.org/badges/version/prompter)](https://CRAN.R-project.org/package=prompter) ![Website](https://img.shields.io/website?up_message=Click&url=https%3A%2F%2Fprompter.etiennebacher.com%2F%23%2F)
+[![CRAN status](https://www.r-pkg.org/badges/version/prompter)](https://CRAN.R-project.org/package=prompter)
+[![Website](https://img.shields.io/badge/Website-Visit-blue)](https://codecov.io/github/etiennebacher/prompter)
 <!-- badges: end -->
 
 The goal of `{prompter}` is to easily create tooltips on many HTML elements in Shiny apps. This is the adaptation of [`hint.css`](https://github.com/chinchang/hint.css) in R.
