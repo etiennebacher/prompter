@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>prompter</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+      new Docute({
+        target: '#docute',
+        title: 'prompter',
+        highlight: ['r'],
+        darkThemeToggler: true,
+        nav: [
+					{
+						title: 'Home',
+						link: '/'
+					},
+					{
+						title: 'GitHub',
+						link: 'https://github.com/etiennebacher/prompter'
+					}
+				],
+				sidebar: [
+					{
+						title: 'Home',
+						link: '/'
+					},
+					{
+						title: 'Customization',
+						link: '/customize'
+					},
+					{title: 'Changelog', link: '/NEWS'},
+					{
+					  title: 'Reference',
+					  link: '/reference'
+					},
+					{title: 'Code of Conduct', link: '/CODE_OF_CONDUCT'}
+				],
+        footer: "<a href='https://github.com/etiennebacher/prompter'> <code> prompter </code> v. 1.1.0 </a> | Documentation made with <a href='https://github.com/etiennebacher/altdoc'> <code> altdoc </code> v. 0.1.0</a>"
+      })
+    </script>
+  </body>
+</html>
+
