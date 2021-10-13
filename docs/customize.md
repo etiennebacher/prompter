@@ -136,3 +136,9 @@ shinyApp(ui, server)
 ```
 
 Note that I put `var(--info)` in the CSS rules to match the `actionButton` that has the class `"btn-info"`. 
+
+<Note>
+
+If you set `version = 5` in `bs_theme()`, you need to use `var(--bs-info)` instead of `var(--info)`, `var(--bs-success)` instead of `var(--success)`, etc. 
+
+</Note>
