@@ -1,3 +1,5 @@
+# Customization
+
 ## Custom CSS
 
 It is possible to override the CSS that is used through the argument `type` in `add_prompt()`. To do so, you can use the following type of rules:
