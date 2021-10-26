@@ -1,5 +1,7 @@
 
-# prompter
+<div align="center">
+  
+  <h1>prompter</h1>
 
 <!-- badges: start -->
 [![Codecov.io test coverage](https://codecov.io/gh/etiennebacher/prompter/branch/master/graphs/badge.svg)](https://codecov.io/github/etiennebacher/prompter)
@@ -8,6 +10,8 @@
 [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://prompter.etiennebacher.com/#/)
 <!-- badges: end -->
 
+  </div>
+  
 The goal of `{prompter}` is to easily create tooltips on many HTML elements in Shiny apps. This is the adaptation of [`hint.css`](https://github.com/chinchang/hint.css) in R.
 
 
