@@ -103,7 +103,7 @@ add_prompt <- function(
       "shiny.tag.list" %in% class(ui_element)) {
 
     shiny::tags$div(
-      ui_element[[1]],
+      ui_element,
       class = paste(
         "hint--",
         c(position, type, size, opts),
