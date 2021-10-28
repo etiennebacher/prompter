@@ -99,8 +99,21 @@ add_prompt <- function(
   opts <- c(unlist(opts), animate, arrow, shadow)
   opts[which(grepl("permanent", opts))] <- "always"
 
+  if (!("shiny.tag" %in% class(ui_element)) &&
+      "shiny.tag.list" %in% class(ui_element)) {
 
-  if (ui_element$name == "img") {
+    shiny::tags$div(
+      ui_element[[1]],
+      class = paste(
+        "hint--",
+        c(position, type, size, opts),
+        collapse = " ",
+        sep = ""
+      ),
+      `aria-label` = message
+    )
+
+  } else if (ui_element$name == "img") {
 
     shiny::tags$div(
       ui_element,
