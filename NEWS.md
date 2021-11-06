@@ -1,3 +1,7 @@
+# Development version
+
+* Fix use with `echarts4r`. Using `add_prompt()` made plots very narrow (#5).
+
 # prompter 1.1.0
 
 * Fix "permanent" option (#2)

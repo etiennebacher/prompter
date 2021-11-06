@@ -99,11 +99,15 @@ add_prompt <- function(
   opts <- c(unlist(opts), animate, arrow, shadow)
   opts[which(grepl("permanent", opts))] <- "always"
 
+
+  # First if is for echarts4r, second if is for images
+
   if (!("shiny.tag" %in% class(ui_element)) &&
       "shiny.tag.list" %in% class(ui_element)) {
 
     shiny::tags$div(
       ui_element,
+      style = "width: 100%",
       class = paste(
         "hint--",
         c(position, type, size, opts),
