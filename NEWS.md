@@ -1,6 +1,7 @@
 # Development version
 
 * Fix use with `echarts4r`. Using `add_prompt()` made plots very narrow (#5).
+* Add documentation on how to have same options for all tooltips.
 
 # prompter 1.1.0
 

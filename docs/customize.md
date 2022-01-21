@@ -1,5 +1,53 @@
 # Customization
 
+## Permanent options
+
+To have a consistent UI, you may want to apply the same options to all tooltips. This means that you have to type all options in every `add_prompt()`, which can lead to mistakes if you change some options later. The best way to apply the same options to all tooltips is to wrap `add_prompt()` in a custom function, as in the example below:
+
+```r
+library(prompter)
+library(shiny)
+library(ggplot2)
+library(magrittr)
+
+my_prompt <- function(el, message, ...) {
+  add_prompt(el, message = message, position = "bottom",
+             animate = TRUE, rounded = TRUE,
+             shadow = FALSE, arrow = FALSE, ...)
+}
+
+ui <- fluidPage(
+  
+  # Load the dependencies
+  use_prompt(),
+  
+  column(
+    3, 
+    # Put the element inside add_prompt()...
+    my_prompt(
+      actionButton("plot", "click"), 
+      message = "this is a button"
+    )
+  ),
+  column(
+    9,
+    # ... or use magrittr's pipe
+    plotOutput("plot") %>% 
+      my_prompt(
+        message = "this is a plot, and I add some text to show the size of the box"
+      )
+  )
+)
+
+server <- function(input, output, session) {
+  
+  output$plot <- renderPlot(ggplot(mtcars, aes(wt, mpg))+ geom_point())
+  
+}
+
+shinyApp(ui, server)
+```
+
 ## Custom CSS
 
 It is possible to override the CSS that is used through the argument `type` in `add_prompt()`. To do so, you can use the following type of rules:
