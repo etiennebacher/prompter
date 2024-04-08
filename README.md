@@ -77,3 +77,7 @@ Here's the output of this code:
 ## Code of Conduct
 
 Please note that the prompter project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+## Acknowledgements
+
+ Kushagra Gour for the original [`hint.css`](https://github.com/chinchang/hint.css) library.
