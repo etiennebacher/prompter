@@ -55,7 +55,7 @@ ui <- fluidPage(
     # ... or use magrittr's pipe
     plotOutput("plot") %>% 
        add_prompt(
-         message = "this is a plot, and I add some text to show the size of the box",
+         message = "this is a plot, and I add some text to show the size of the box. This is some very very long text.",
          position = "left", type = "error", 
          size = "medium", rounded = TRUE
        )
