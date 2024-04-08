@@ -4,7 +4,7 @@
   <h1>prompter</h1>
 
 <!-- badges: start -->
-[![Codecov.io test coverage](https://codecov.io/gh/etiennebacher/prompter/branch/master/graphs/badge.svg)](https://codecov.io/github/etiennebacher/prompter)
+[![Codecov.io test coverage](https://app.codecov.io/gh/etiennebacher/prompter/branch/master/graphs/badge.svg)](https://app.codecov.io/github/etiennebacher/prompter)
 [![R build status](https://github.com/etiennebacher/prompter/workflows/R-CMD-check/badge.svg)](https://github.com/etiennebacher/prompter/actions)
 [![CRAN status](https://www.r-pkg.org/badges/version/prompter)](https://CRAN.R-project.org/package=prompter)
 [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://prompter.etiennebacher.com/#/)
