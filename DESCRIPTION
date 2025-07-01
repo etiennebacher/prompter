@@ -1,7 +1,7 @@
 Package: prompter
 Type: Package
 Title: Add Tooltips in 'Shiny' Apps with 'Hint.css'
-Version: 1.2.0
+Version: 1.2.0.9000
 Authors@R: 
     person(given = "Etienne",
            family = "Bacher",
@@ -14,10 +14,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 
     shiny
+Suggests: 
+    htmltools,
+    spelling,
+    testthat
 RoxygenNote: 7.1.2
 URL: https://prompter.etiennebacher.com, https://github.com/etiennebacher/prompter
 BugReports: https://github.com/etiennebacher/prompter/issues
-Suggests: 
-    testthat,
-    spelling
 Language: en-US
