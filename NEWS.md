@@ -1,3 +1,7 @@
+# prompter (development version)
+
+* Adapt tests to future `shiny` version (@cpsievert, #14).
+
 # prompter 1.2.0
 
 * Fix use with `echarts4r`. Using `add_prompt()` made plots very narrow (#5).
