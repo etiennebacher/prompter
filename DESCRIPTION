@@ -14,10 +14,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: 
     shiny
+Suggests: 
+    htmltools,
+    spelling,
+    testthat
 RoxygenNote: 7.1.2
 URL: https://prompter.etiennebacher.com, https://github.com/etiennebacher/prompter
 BugReports: https://github.com/etiennebacher/prompter/issues
-Suggests: 
-    testthat,
-    spelling
 Language: en-US
