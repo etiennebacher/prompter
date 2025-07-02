@@ -1,4 +1,4 @@
-# prompter (development version)
+# prompter 1.2.1
 
 * Adapt tests to future `shiny` version (@cpsievert, #14).
 

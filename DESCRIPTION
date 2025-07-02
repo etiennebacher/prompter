@@ -1,7 +1,7 @@
 Package: prompter
 Type: Package
 Title: Add Tooltips in 'Shiny' Apps with 'Hint.css'
-Version: 1.2.0.9000
+Version: 1.2.1
 Authors@R: 
     person(given = "Etienne",
            family = "Bacher",
